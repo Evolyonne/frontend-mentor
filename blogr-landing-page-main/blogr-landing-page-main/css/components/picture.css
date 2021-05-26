@@ -1,0 +1,39 @@
+.screen {
+  height: 340px;
+  width: 400px;
+  margin-bottom: 25px;
+}
+
+.phone {
+  background-image: url("../../images/illustration-phones.svg");
+  background-size: cover;
+  top: 314%;
+  z-index: 3;
+  position: absolute;
+  margin-top: 60px;
+  height: 400px;
+  width: 400px;
+}
+
+.underneath {
+  background-image: url("../../images/bg-pattern-circles.svg");
+  position: absolute;
+  width: 500px;
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  z-index: 220;
+  top: -5%;
+  right: -50px;
+}
+
+.computer {
+  background-color: yellow;
+  width: 350px;
+  height: 250px;
+}
+
+.circle {
+  width: 400px;
+  height: 400px;
+}

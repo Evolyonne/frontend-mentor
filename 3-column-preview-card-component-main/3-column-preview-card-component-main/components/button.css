@@ -1,0 +1,88 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75); /*(paragraphs) */
+  --very-light-gray: hsl(0, 0%, 95%); /*(background, headings, buttons)*/
+}
+
+.card button {
+  background-color: var(--very-light-gray);
+  font-family: "Lexend Deca";
+  padding: 15px 8px 15px 8px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  margin-left: 35px;
+  margin-top: 25px;
+  position: static;
+}
+
+a {
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.card button a {
+  text-decoration: none;
+}
+
+/* button sedans */
+
+.card-sedans button {
+  border: solid;
+  border-color: var(--bright-orange);
+}
+
+.card-sedans button:hover {
+  background-color: var(--bright-orange);
+  border-color: var(--very-light-gray);
+}
+
+.card-sedans a {
+  color: var(--bright-orange);
+}
+
+.card-sedans a:hover {
+  color: var(--very-light-gray);
+}
+
+/* button SUVS */
+
+.card-suvs button {
+  border: solid;
+  border-color: var(--dark-cyan);
+}
+
+.card-suvs button:hover {
+  background-color: var(--dark-cyan);
+  border-color: var(--very-light-gray);
+}
+
+.card-suvs a {
+  color: var(--dark-cyan);
+}
+
+.card-suvs a:hover {
+  color: var(--very-light-gray);
+}
+
+/* button luxury */
+
+.card-luxury button {
+  border: solid;
+  border-color: var(--very-dark-cyan);
+}
+
+.card-luxury button:hover {
+  background-color: var(--very-dark-cyan);
+  border-color: var(--very-light-gray);
+}
+
+.card-luxury a {
+  color: var(--very-dark-cyan);
+}
+
+.card-luxury a:hover {
+  color: var(--very-light-gray);
+}
