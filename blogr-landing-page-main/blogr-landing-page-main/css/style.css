@@ -39,6 +39,7 @@ body {
   text-align: center;
   font-family: "Overpass";
   margin: 0;
+  width: 100%;
   color: var(--very-dark-desaturated-blue);
   font-size: 14px;
 }
@@ -59,73 +60,95 @@ nav {
 
 .card-pink-text h1 {
   font-size: 35px;
-  padding: 10px 45px;
+  padding: 0 30px;
+  margin-bottom: 0;
 }
 
 .card-pink-text p {
   font-size: 18px;
-  padding: 0 55px;
+  padding: 0 30px;
+}
+
+
+.card-future .designed-for{
+  margin: 65px 0;
+  color: var(--very-dark-blue);
 }
 
 .card-future h2 {
   font-size: 28px;
-  margin: 25px 35px;
+  padding: 0 35px;
+  margin: 15px 0;
 }
 
-.designed-for{
-  padding-top: 65px;
-  color: var(--very-dark-blue);
-}
-
-.introducing {
-  padding: 0 55px;
-  margin-bottom: 0;
+.card-future p {
+  padding: 0 25px;
+  margin-top: 0;
+  font-size: 16px;
+  color: var(--very-dark-desaturated-blue);
+  font-weight: 300px;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  line-height: 30px;
 }
 
 .introducing-para {
-  margin-top: 0;
   margin-bottom: 45px;
 }
 
 .robust-para {
-  margin-bottom: 300px;
-}
-
-.card-future p {
-  font-size: 16px;
-  color: var(--very-dark-desaturated-blue);
-  font-weight: lighter;
-  opacity: 0.8;
-  line-height: 30px;
-  padding: 0 50px;
+  margin-bottom: 320px;
 }
 
 .card-blue {
-  background-color: var(--very-dark-gray-blue);
+  background: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
   border-bottom-left-radius: 100px;
   border-top-right-radius: 100px;
   color: var(--white);
   height: 500px;
-  padding-top: 200px;
+  padding-top: 150px;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .card-blue h2 {
-  padding: 5px 35px;
-  font-size: 38px;
-  margin-bottom: 0;
+  padding: 0 35px;
+  font-size: 40px;
+  margin-bottom: 8px;
+  margin-top: 90px;
 }
 
 .card-blue p {
   font-size: 15px;
   opacity: 0.6;
-  margin-bottom: 45px;
+  margin: 0;
   font-weight: lighter;
   line-height: 30px;
   letter-spacing: 1px;
-  padding: 10px 40px;
+  padding: 10px 25px;
 }
+
+.card-source h2 {
+  font-size: 28px;
+  padding: 0 35px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.card-source p {
+  font-size: 15px;
+  opacity: 0.6;
+  margin: 0;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding: 10px 25px;
+}
+
+.card-source .batteries {
+  margin-bottom: 80px;
+}
+
 
 .footer {
   display: flex;
@@ -134,6 +157,13 @@ nav {
   align-items: center;
   background-color: var(--very-dark-black-blue);
   color: var(--white);
-  height: 500px;
+  height: 900px;
   border-top-right-radius: 85px;
+}
+
+.footer h4 {
+  font-size: 18px;
+  font-family: "Ubuntu";
+  font-weight: 500;
+  
 }
