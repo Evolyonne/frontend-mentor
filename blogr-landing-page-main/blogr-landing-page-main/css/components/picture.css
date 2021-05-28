@@ -8,8 +8,8 @@
 .phone {
   background-image: url("../../images/illustration-phones.svg");
   background-size: cover;
-  top: 322%;
-  z-index: 3;
+  top: 310%;
+  z-index: 30;
   position: absolute;
   height: 400px;
   width: 100%;
@@ -19,11 +19,13 @@
   background-image: url("../../images/bg-pattern-circles.svg");
   background-size: cover;
   position: absolute;
-  top: -13%;
+  image-orientation: 90deg flip;
+  top: -36%;
   right: -120px;
-  width: 620px;
-  height: 630px;
-  z-index: 2;
+  opacity: 0.6;
+  width: 610px;
+  height: 620px;
+  z-index: 20;
 }
 
 .computer {

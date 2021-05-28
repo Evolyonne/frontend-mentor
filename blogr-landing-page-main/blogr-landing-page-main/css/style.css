@@ -108,7 +108,7 @@ nav {
   height: 500px;
   padding-top: 150px;
   position: relative;
-  z-index: 2;
+  z-index: 20;
 }
 
 .card-blue h2 {
