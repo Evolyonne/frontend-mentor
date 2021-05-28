@@ -1,39 +1,43 @@
 .screen {
   height: 340px;
-  width: 400px;
-  margin-bottom: 25px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 24px;
 }
 
 .phone {
   background-image: url("../../images/illustration-phones.svg");
   background-size: cover;
-  top: 314%;
+  top: 322%;
   z-index: 3;
   position: absolute;
-  margin-top: 60px;
   height: 400px;
-  width: 400px;
+  width: 100%;
 }
 
 .underneath {
   background-image: url("../../images/bg-pattern-circles.svg");
-  position: absolute;
-  width: 500px;
-  height: 550px;
   background-size: cover;
-  background-position: center;
-  z-index: 220;
-  top: -5%;
-  right: -50px;
+  position: absolute;
+  top: -13%;
+  right: -120px;
+  width: 620px;
+  height: 630px;
+  z-index: 2;
 }
 
 .computer {
-  background-color: yellow;
-  width: 350px;
-  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  height: 380px;
+  margin-top: 65px;
+  object-fit: cover;
 }
 
-.circle {
-  width: 400px;
-  height: 400px;
+.foot-blogr {
+  background-image: url("../../images/logo.svg");
+  width: 100px;
+  height: 40px;
+  margin: 40px 75px;
 }
+
