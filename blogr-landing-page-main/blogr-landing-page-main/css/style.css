@@ -157,7 +157,7 @@ nav {
   align-items: center;
   background-color: var(--very-dark-black-blue);
   color: var(--white);
-  height: 900px;
+  height: 950px;
   border-top-right-radius: 85px;
 }
 
@@ -165,5 +165,15 @@ nav {
   font-size: 18px;
   font-family: "Ubuntu";
   font-weight: 500;
-  
+}
+
+.footer .list {
+  margin: 25px 0;
+  line-height: 35px;
+  opacity: 0.6;
+  font-weight: 300;
+}
+
+.list-end {
+  margin-bottom: 70px;
 }
