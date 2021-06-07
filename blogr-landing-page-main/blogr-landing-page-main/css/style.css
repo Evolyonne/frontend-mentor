@@ -44,11 +44,6 @@ body {
   font-size: 14px;
 }
 
-
-nav {
-  visibility: hidden;
-}
-
 .card-start {
   background-color: var(--very-light-red-intro);
   color: var(--white);
@@ -108,7 +103,7 @@ nav {
   height: 500px;
   padding-top: 150px;
   position: relative;
-  z-index: 20;
+  z-index: 2;
 }
 
 .card-blue h2 {
