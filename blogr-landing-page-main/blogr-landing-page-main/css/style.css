@@ -44,11 +44,6 @@ body {
   font-size: 14px;
 }
 
-
-nav {
-  visibility: hidden;
-}
-
 .card-start {
   background-color: var(--very-light-red-intro);
   color: var(--white);
