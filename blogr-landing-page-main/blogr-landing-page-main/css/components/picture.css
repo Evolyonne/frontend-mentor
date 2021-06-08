@@ -43,3 +43,9 @@
   margin: 40px 75px;
 }
 
+.arrow {
+  height: 10px;
+  width: 14px;
+  justify-content: center;
+}
+

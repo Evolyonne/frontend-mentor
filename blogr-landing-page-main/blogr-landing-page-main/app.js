@@ -5,6 +5,6 @@ const nav = document.querySelector('.menu-list');
 burger.addEventListener('click', () => {
   burger.classList.toggle('active');
   menu.classList.toggle('nav_open');
-  nav.classList.toggle('nav_open');
+  nav.classList.toggle('drop_down_open');
 });
 
